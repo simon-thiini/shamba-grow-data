@@ -23,8 +23,8 @@ const FarmCTA = () => {
             </h2>
             
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Join thousands of farmers who have already increased their profits and 
-              streamlined their operations with Shamba Metrics.
+              Empower your agricultural success with cutting-edge technology designed for farmers, by farmers. 
+              Get your farm on the go with our revolutionary mobile app.
             </p>
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">

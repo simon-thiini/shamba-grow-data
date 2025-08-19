@@ -18,15 +18,16 @@ const FarmHero = () => {
       <div className="relative container mx-auto px-4 py-20 min-h-screen flex items-center">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h1 className="text-5xl md:text-7xl font-bold text-foreground leading-tight">
-            Transform Your Farm Into A{" "}
+            Your{" "}
             <span className="bg-hero-gradient bg-clip-text text-transparent">
-              Data-Driven Business
+              Farming Solution
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Complete farm management platform that handles everything from livestock and crops 
-            to finances and payroll. Make smarter decisions with comprehensive analytics and reporting.
+            Revolutionize your farm management with Shamba Metrics! Our all-in-one app provides detailed 
+            analysis of your crops and livestock, tracks everything from farmworkers to distribution, 
+            and keeps your farm running like clockwork.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center pt-8">

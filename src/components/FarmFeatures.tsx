@@ -1,36 +1,36 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { BarChart3, Heart, Wheat, DollarSign, Users, TrendingUp } from "lucide-react";
+import { BarChart3, CloudRain, MapPin, DollarSign, MessageSquare, Globe } from "lucide-react";
 
 const features = [
   {
-    icon: Heart,
-    title: "Livestock Management",
-    description: "Track animal health, breeding cycles, feeding schedules, and productivity metrics with comprehensive livestock profiles."
+    icon: BarChart3,
+    title: "Real-time Dashboard",
+    description: "Farm performance summaries at your fingertips with comprehensive data visualization and analytics for better decision making."
   },
   {
-    icon: Wheat,
-    title: "Crop Planning",
-    description: "Optimize planting schedules, monitor growth stages, and manage harvest logistics with intelligent crop management tools."
+    icon: CloudRain,
+    title: "Weather & Climate Forecasting",
+    description: "Stay ahead with accurate weather updates and climate forecasting to protect your crops and optimize farming activities."
+  },
+  {
+    icon: MapPin,
+    title: "GPS Mapping & Geotagging",
+    description: "Map your fields with precision GPS technology and geotag important locations for efficient farm management."
   },
   {
     icon: DollarSign,
-    title: "Financial Tracking",
-    description: "Monitor expenses, revenue, profit margins, and cash flow with detailed financial reporting and budget planning."
+    title: "Expense & Income Tracking",
+    description: "Monitor all your farm expenses and income with detailed financial tracking and reporting capabilities."
   },
   {
-    icon: Users,
-    title: "Payroll Management",
-    description: "Streamline employee management, track working hours, calculate wages, and handle seasonal workforce needs."
+    icon: MessageSquare,
+    title: "SMS Alerts & Reminders",
+    description: "Never miss important tasks with automated SMS alerts and reminders for critical farming activities."
   },
   {
-    icon: BarChart3,
-    title: "Analytics Dashboard",
-    description: "Gain insights with real-time data visualization, performance metrics, and predictive analytics for better decision making."
-  },
-  {
-    icon: TrendingUp,
-    title: "Performance Optimization",
-    description: "Identify inefficiencies, optimize resource allocation, and increase overall farm productivity with AI-powered recommendations."
+    icon: Globe,
+    title: "Multi-language Support",
+    description: "Access the platform in your preferred language with inclusive multi-language support and secure cloud-based backup."
   }
 ];
 
