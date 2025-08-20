@@ -37,19 +37,7 @@ const features = [
 const FarmFeatures = () => {
   return (
     <section className="py-20 bg-muted/30">
-      <div className="container mx-auto px-4">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Everything You Need to{" "}
-            <span className="bg-accent-gradient bg-clip-text text-transparent">
-              Manage Your Farm
-            </span>
-          </h2>
-          <p className="text-xl text-muted-foreground">
-            Comprehensive tools designed specifically for modern agricultural operations
-          </p>
-        </div>
-        
+      <div className="container mx-auto px-4">        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <Card key={index} className="group hover:shadow-farm transition-all duration-300 hover:-translate-y-1 border-border/50">
