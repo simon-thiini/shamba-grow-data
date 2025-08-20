@@ -14,17 +14,17 @@ const FarmHeader = () => {
           </div>
           
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/" className="text-muted-foreground hover:text-foreground transition-colors">
+              Home
+            </a>
+            <a href="/features" className="text-muted-foreground hover:text-foreground transition-colors">
               Features
             </a>
-            <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">
-              Pricing
+            <a href="/about" className="text-muted-foreground hover:text-foreground transition-colors">
+              About Us
             </a>
-            <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">
-              About
-            </a>
-            <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">
-              Contact
+            <a href="/contact" className="text-muted-foreground hover:text-foreground transition-colors">
+              Contact Us
             </a>
           </nav>
           
