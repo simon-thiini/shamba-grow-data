@@ -28,14 +28,6 @@ const FarmHeader = () => {
             </a>
           </nav>
           
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" className="hidden sm:inline-flex">
-              Sign In
-            </Button>
-            <Button className="bg-hero-gradient hover:opacity-90 text-white">
-              Get Started
-            </Button>
-          </div>
         </div>
       </div>
     </header>

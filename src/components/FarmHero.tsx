@@ -30,14 +30,6 @@ const FarmHero = () => {
             and keeps your farm running like clockwork.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center pt-8">
-            <Button size="lg" className="bg-hero-gradient hover:opacity-90 text-white px-8 py-4 text-lg shadow-farm">
-              Start Free Trial
-            </Button>
-            <Button variant="outline" size="lg" className="px-8 py-4 text-lg border-primary/20 hover:bg-primary/5">
-              Watch Demo
-            </Button>
-          </div>
           
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-16 max-w-2xl mx-auto">
