@@ -78,7 +78,122 @@ const Features = () => {
           </div>
         </section>
 
-        {/* Features Grid */}
+        {/* Core Features */}
+        <section className="py-20 bg-muted/30">
+          <div className="container mx-auto px-4">
+            <div className="text-center max-w-3xl mx-auto mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+                Everything You Need to{" "}
+                <span className="bg-accent-gradient bg-clip-text text-transparent">
+                  Manage Your Farm
+                </span>
+              </h2>
+              <p className="text-xl text-muted-foreground">
+                Comprehensive tools designed specifically for modern agricultural operations
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <Card className="group hover:shadow-farm transition-all duration-300 hover:-translate-y-1 border-border/50">
+                <CardHeader className="pb-4">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                    <BarChart3 className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
+                    Real-time Dashboard
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription className="text-muted-foreground leading-relaxed">
+                    Farm performance summaries at your fingertips with comprehensive data visualization and analytics for better decision making.
+                  </CardDescription>
+                </CardContent>
+              </Card>
+              
+              <Card className="group hover:shadow-farm transition-all duration-300 hover:-translate-y-1 border-border/50">
+                <CardHeader className="pb-4">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                    <Calendar className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
+                    Weather & Climate Forecasting
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription className="text-muted-foreground leading-relaxed">
+                    Stay ahead with accurate weather updates and climate forecasting to protect your crops and optimize farming activities.
+                  </CardDescription>
+                </CardContent>
+              </Card>
+              
+              <Card className="group hover:shadow-farm transition-all duration-300 hover:-translate-y-1 border-border/50">
+                <CardHeader className="pb-4">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                    <Package className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
+                    GPS Mapping & Geotagging
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription className="text-muted-foreground leading-relaxed">
+                    Map your fields with precision GPS technology and geotag important locations for efficient farm management.
+                  </CardDescription>
+                </CardContent>
+              </Card>
+              
+              <Card className="group hover:shadow-farm transition-all duration-300 hover:-translate-y-1 border-border/50">
+                <CardHeader className="pb-4">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                    <DollarSign className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
+                    Expense & Income Tracking
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription className="text-muted-foreground leading-relaxed">
+                    Monitor all your farm expenses and income with detailed financial tracking and reporting capabilities.
+                  </CardDescription>
+                </CardContent>
+              </Card>
+              
+              <Card className="group hover:shadow-farm transition-all duration-300 hover:-translate-y-1 border-border/50">
+                <CardHeader className="pb-4">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                    <Users className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
+                    SMS Alerts & Reminders
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription className="text-muted-foreground leading-relaxed">
+                    Never miss important tasks with automated SMS alerts and reminders for critical farming activities.
+                  </CardDescription>
+                </CardContent>
+              </Card>
+              
+              <Card className="group hover:shadow-farm transition-all duration-300 hover:-translate-y-1 border-border/50">
+                <CardHeader className="pb-4">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                    <Truck className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
+                    Multi-language Support
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription className="text-muted-foreground leading-relaxed">
+                    Access the platform in your preferred language with inclusive multi-language support and secure cloud-based backup.
+                  </CardDescription>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
+        {/* Complete Management Features */}
         <section className="py-20">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
