@@ -38,9 +38,14 @@ All colors MUST be HSL.
 
     /* Custom farm theme tokens */
     --hero-gradient: linear-gradient(135deg, hsl(125 80% 25%), hsl(115 70% 35%));
+    --gradient-hero: linear-gradient(135deg, hsl(125 80% 25%), hsl(115 70% 35%));
+    --gradient-earth: linear-gradient(135deg, hsl(30 25% 85%), hsl(25 20% 80%));
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100% / 0.9), hsl(0 0% 98% / 0.8));
     --accent-gradient: linear-gradient(135deg, hsl(35 90% 60%), hsl(45 85% 55%));
     --earth-tone: 30 25% 85%;
     --success-green: 125 60% 45%;
+    --success: 125 60% 45%;
+    --harvest: 35 90% 60%;
     --farm-shadow: 0 10px 30px -10px hsl(125 80% 25% / 0.15);
 
     --radius: 0.5rem;
@@ -93,9 +98,14 @@ All colors MUST be HSL.
 
     /* Dark theme custom tokens */
     --hero-gradient: linear-gradient(135deg, hsl(125 60% 45%), hsl(115 50% 35%));
+    --gradient-hero: linear-gradient(135deg, hsl(125 60% 45%), hsl(115 50% 35%));
+    --gradient-earth: linear-gradient(135deg, hsl(30 15% 25%), hsl(25 10% 20%));
+    --gradient-card: linear-gradient(135deg, hsl(120 15% 10% / 0.9), hsl(120 15% 12% / 0.8));
     --accent-gradient: linear-gradient(135deg, hsl(35 80% 55%), hsl(45 70% 50%));
     --earth-tone: 30 15% 25%;
     --success-green: 125 50% 55%;
+    --success: 125 50% 55%;
+    --harvest: 35 80% 55%;
     --farm-shadow: 0 10px 30px -10px hsl(125 60% 45% / 0.2);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
