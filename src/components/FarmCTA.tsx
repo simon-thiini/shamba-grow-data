@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle } from "lucide-react";
 
 const benefits = [
-  "30-day free trial",
+  "free trial",
   "No setup fees",
   "24/7 customer support",
   "Cancel anytime"

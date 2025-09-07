@@ -2,12 +2,12 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const stats = [
   {
-    value: "150M+",
+    value: "150+",
     label: "Acres Managed",
     description: "Farmland under active management"
   },
   {
-    value: "$2.3B",
+    value: "$23",
     label: "Revenue Tracked",
     description: "Total farm revenue monitored"
   },
@@ -17,7 +17,7 @@ const stats = [
     description: "Based on user feedback surveys"
   },
   {
-    value: "45%",
+    value: "65%",
     label: "Time Saved",
     description: "Average reduction in admin tasks"
   }

@@ -25,15 +25,6 @@ export const HeroSection = () => {
                 Complete farm management platform that handles everything from livestock and crops to finances and payroll. Make smarter decisions with comprehensive analytics and reporting.
               </p>
             </div>
-            <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Button variant="hero" size="lg" className="animate-slide-up">
-                Start Free Trial
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-              <Button variant="outline" size="lg" className="animate-slide-up">
-                Watch Demo
-              </Button>
-            </div>
             <div className="grid grid-cols-3 gap-4 pt-8 animate-slide-up">
               <div className="text-center">
                 <div className="flex items-center justify-center w-12 h-12 bg-success/10 rounded-lg mb-2 mx-auto">
@@ -46,14 +37,14 @@ export const HeroSection = () => {
                 <div className="flex items-center justify-center w-12 h-12 bg-primary/10 rounded-lg mb-2 mx-auto">
                   <Shield className="h-6 w-6 text-primary" />
                 </div>
-                <div className="text-2xl font-bold text-foreground">99.9%</div>
+                <div className="text-2xl font-bold text-foreground">99.7%</div>
                 <div className="text-sm text-muted-foreground">Uptime Guarantee</div>
               </div>
               <div className="text-center">
                 <div className="flex items-center justify-center w-12 h-12 bg-harvest/10 rounded-lg mb-2 mx-auto">
                   <Users className="h-6 w-6 text-harvest" />
                 </div>
-                <div className="text-2xl font-bold text-foreground">5000+</div>
+                <div className="text-2xl font-bold text-foreground">50</div>
                 <div className="text-sm text-muted-foreground">Happy Farmers</div>
               </div>
             </div>
@@ -74,7 +65,7 @@ export const HeroSection = () => {
                   </div>
                   <div className="flex justify-between items-center p-3 bg-primary/5 rounded-lg">
                     <span className="text-sm font-medium">Monthly Revenue</span>
-                    <span className="text-lg font-bold text-primary">$89,450</span>
+                    <span className="text-lg font-bold text-primary">ksh89,450</span>
                   </div>
                 </div>
               </div>
